@@ -28,7 +28,7 @@ def soma_estoque_total():
     estoque_total = []
     for v in intrumentos.values():
         #print(v)
-        estoque_total.append(int(v))
+        estoque_total.append(int(v)
     return sum(estoque_total)
 
 print(soma_estoque_total())
