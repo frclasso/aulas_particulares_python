@@ -8,7 +8,7 @@ person = '{"name": "Bob","languages":["English", "Franch"]}'
 print(type(person))
 print(person)
 print()
-person_as_dict = json.loads(person)
+person_as_dict = json.loads(person) # LOADS() ESPERA UMA STRING
 print()
 print(type(person_as_dict))
 print(person_as_dict["languages"])

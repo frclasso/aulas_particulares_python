@@ -32,4 +32,4 @@ print(type(person_to_json))
 
 # salva
 with open("janedoe.json", 'w') as file_write:
-    json.dump(person, file_write, indent=4)
+    json.dump(person, file_write, indent=4)  # dump() espera um dicionario, escrever arquivo

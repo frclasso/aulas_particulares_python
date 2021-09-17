@@ -50,3 +50,6 @@ def save_data_to_json():
         json.dump(get_all_completed_register(), file, indent=4)
 
 save_data_to_json()
+
+# HOME WORK - CRIAR FUNCAO PARA COMPLETED == FALSE
+

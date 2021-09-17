@@ -1,28 +1,26 @@
-# classes
 
-class Person:
-
-    # inicializadores
-    def __init__(self, name, role):
-        self.name = name
-        self.role = role
-
-    # escopo global
-    # atributos de classe
-    empresa = "Wall Mart"
-    __gratificacoes = 1000 # ENCAPSULAMENTO
-    
-    # escopo local
-    def holerite(self):
-        pass
+class Employee:
+    """Definicao de class"""
+    pass
 
 
-fabio = Person("Fabio", "Programador")  # INTANCIANDO A CLASSE
-print(fabio.name) # attr
-print(fabio.role)
+# intanciar a classe, criar um objeto
+fabio = Employee()
+luiza = Employee()
+print(fabio)
 
 
-luiza = Person("Luiza", "Developer")# INTANCIANDO A CLASSE
-print(luiza.empresa)
-print(luiza.holerite())
-print(luiza.__gratificacoes)
+# atributos de instancia
+fabio.nome = "Fabio"
+fabio.sobrenome = "Classo"
+fabio.company = "fiesc"
+print(fabio.nome)
+print(fabio.sobrenome)
+print(fabio.company)
+print()
+
+print(luiza)
+luiza.nome = "Luiza"
+luiza.sobrenome = "Camilo"
+luiza.company = "fiesc"
+print(luiza.nome)

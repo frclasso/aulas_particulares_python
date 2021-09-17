@@ -8,5 +8,5 @@ file_path = "C:/Users/fabio.classo/Downloads/fabio/"\
 os.chdir(file_path)
 
 with open('person.json', 'r') as json_reader:
-    data = json.load(json_reader, indent=4) # objeto json
+    data = json.load(json_reade) # objeto json
     print(data)
